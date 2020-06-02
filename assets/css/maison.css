@@ -1,0 +1,175 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f5dfeb;
+	margin: 0;
+	padding: 0;
+}
+
+/*styling the navigation bar*/
+.navbar {
+	background-color:#e6b5d0;
+	overflow: hidden;
+	display: flex; 
+	box-shadow: 5px 5px 5px #333;
+	font-family: 'Kalam', cursive;
+}
+/*styling the logo*/
+.logo {
+	height: 120px;
+	align-self: flex-end;
+	padding: 0;
+	margin: 0;
+}
+/*styling the links*/
+.navbar a {
+	padding: 0 5px;
+	text-decoration: none;
+	font-size: 18px;
+	color:black;
+	margin:0;
+}
+/*Making the links to be flex items*/
+section.links {
+	display: flex;
+	flex-direction: column;
+	order:-1;
+}
+/*links hover*/
+.navbar a:hover {
+	color:white;
+	transition: 0.3s;
+}
+/*styling the layouts*/
+.row {
+	display:flex;
+	flex-wrap: wrap;
+	height:1200px;
+	margin:10px;
+	
+}
+.main {
+	flex:100%;
+}
+.side {
+	flex:100%;
+	display: flex;
+}
+/*styling items inside side column*/
+.mission-vision {
+	background-color: white;
+	flex:50%;
+	padding: 15px;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 5px;
+}
+/*styling header in mission and vision*/
+.mission-vision h2 {
+	font-family: 'Kalam', cursive;
+	font-size: 2rem;
+	text-align: center;
+}
+/*styling the slides*/
+.slide {
+	display: flex;
+	margin:1% 2%;
+	flex-direction: column;
+	position: relative;
+	padding-bottom:0;
+}
+.coffee {
+	position: absolute;
+	width:130px;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+.caption h2 {
+	text-align: center;
+	font-family: 'Kalam', cursive;
+	font-size: 1.8rem;
+	max-width: 100%;
+}
+.picture {
+	flex:100%;
+}
+.picture img {
+	width: 100%;
+}
+.caption{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	flex:100%;
+	max-width: 100%;
+	padding-top:20px;
+	}
+.caption p {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2rem;
+	
+
+}
+.header img {
+	max-width: 100%;
+}
+.our-story p{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1rem;
+}
+.our-story {
+	margin-top: 15px;
+}
+.cakes {
+	display: flex;
+	flex-direction: column;
+}
+.cakes img {
+	max-width: 100%;
+	background-color: white;
+	margin: 5px;
+	padding: 15px;
+}
+/*styling the footer*/
+.footer {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	margin:auto;
+	margin-top: 20px;
+	padding-bottom: 150px;
+}
+.footer h1 {
+	font-family: 'Kalam', cursive;
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.footer h2 {
+	font-family: 'Kalam', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+	justify-content: center;
+	padding:0;
+	margin: 0;
+}
+.footer section {
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 5px;
+	color:grey;
+}
+.footer img {
+	max-width: 100%;
+	position: absolute;
+	bottom: 0;
+}
