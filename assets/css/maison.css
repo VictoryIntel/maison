@@ -18,6 +18,7 @@ div.make-order {
 	border: 0px solid white;
 	border-radius: 10%;
 	display: flex;
+	z-index: 1;
 }
 #whatsapp{
 	font-family: 'Poppins', sans-serif;
@@ -25,6 +26,7 @@ div.make-order {
 	display: inline-block;
 	padding-left: 8%;
 	color: white;
+	text-decoration: none;
 }
 .make-order i{
 	font-size: 1.2rem;
@@ -40,12 +42,9 @@ div.make-order {
 	box-shadow: 5px 5px 5px #333;
 	font-family: 'Kalam', cursive;
 	justify-content: space-between;
-	position: sticky;
 	align-items: center;
-	top:0;
 	z-index: 2;
-	padding: 5px 0px;
-	padding-right: 20px;
+	padding: 5px 10px;
 	margin: 0;
 }
 /* styling the menu button */
@@ -71,7 +70,7 @@ div.make-order {
 	left: 0;
 	overflow-x: hidden;
 	transition: 0.5s;
-	z-index: 3;
+	z-index: 4;
 }
 .overlay a {
 	text-decoration: none;
@@ -82,7 +81,7 @@ div.make-order {
 	font-family: 'Kalam', cursive;
 	color: rgb(102, 53, 80);
 }
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover, .overlay a:focus, .fa-times:hover {
 	color:#f1f1f1;
 }
 .overlay-content{
