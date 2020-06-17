@@ -96,6 +96,18 @@ div.make-order {
 	right: 45px;
 	font-size: 60px;
 }
+/*Styling the services section*/
+.services {
+	font-size: 2rem;
+}
+.services li {
+	list-style-type: none;
+
+}
+.fa-check-double {
+	color:#704182;
+	padding-right: 10px;
+}
 /*Styling the layout*/
 [class*="col-"] {
   float: left;
@@ -109,7 +121,8 @@ div.make-order {
 /* styling all the h2 headers */
 h2 {
 	font-family: 'Kalam', cursive;
-	font-size: 1.5rem;
+	color:#818181;
+	font-size: 2.2rem;
 	text-align: center;
 	justify-content: center;
 	padding:0;
