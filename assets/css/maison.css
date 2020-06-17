@@ -44,7 +44,7 @@ div.make-order {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 2;
-	padding: 5px 10px;
+	padding: 5px 0;
 	margin: 0;
 }
 /* styling the menu button */
@@ -52,6 +52,7 @@ div.make-order {
 	font-size: 40px;
 	align-self: center;
 	color: purple;
+	padding-right: 10px;
 }
 /*styling the logo*/
 .logo {
